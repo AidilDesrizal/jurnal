@@ -1,0 +1,10 @@
+CREATE DATABASE db_jurnal;
+
+USE db_jurnal;
+
+CREATE TABLE jurnal (
+    id INT(5) PRIMARY KEY AUTO_INCREMENT,
+    tema VARCHAR(100),
+    tgl_tema DATE,
+    isi_tema VARCHAR(300)
+);
